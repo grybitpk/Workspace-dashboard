@@ -1,0 +1,18 @@
+# Build outputs
+dist
+.next
+.vercel
+
+# Node dependencies
+node_modules
+
+# Supabase backend directory (deployed separately to Supabase)
+supabase
+
+# Version control
+.git
+.gitignore
+
+# Local config & logs
+.env*.local
+*.log
